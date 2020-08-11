@@ -1,22 +1,23 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.container{
+.container {
     max-width: 1270px;
     margin: 0 auto;
+    position: relative;
 }
 
-.promo{
+.promo {
     height: 1032px;
     background: url("../img/top.jpg") center center/contain no-repeat;
 }
 
-.nav-link{
+.nav-link {
     float: right;
-    list-style-type: none;	
+    list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: right;
@@ -24,7 +25,7 @@
     align-items: center;
 }
 
-.nav-link-1{
+.nav-link-1 {
     text-decoration: none;
     font-family: Dosis;
     font-size: 18px;
@@ -34,35 +35,35 @@
     padding: 7px 12px;
 }
 
-.nav-link-2{
+.nav-link-2 {
     width: 30px;
     height: 26px;
 }
 
-.logo{
+.logo {
     padding-top: 165px;
 }
 
-.logo-top{
+.logo-top {
     display: block;
     margin: 0 auto;
     width: 442px;
     height: 277px;
 }
 
-.h{
+.h {
     height: 59px;
     margin: 91px 0 72px;
 }
 
-h1{
+h1 {
     font-family: Dosis;
     font-size: 80px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.025em;
     color: #2f1946;
-    text-align: center; 
+    text-align: center;
 }
 
 .started {
@@ -89,52 +90,53 @@ h1{
     padding: 10px 13px 12px 14px;
 }
 
-.bottom-img{
+.bottom-img {
     padding-left: 12px;
 }
 
-.icons-container{
+.icons-container {
     display: flex;
     justify-content: center;
     padding-top: 75px;
 }
 
-.square{
+.square {
     width: 235px;
     height: 330px;
 }
 
-.pink{
+.pink {
     background-color: #fe4a5d;
 }
 
-.red{
+.red {
     background-color: #e22028;
     margin: 0 40px;
 }
 
-.orange{
+.orange {
     background-color: #ff6c00;
 }
 
-.icons-cenral{
+.icons-cenral {
     display: block;
-    margin: 0 auto; 
+    margin: 0 auto;
     padding-top: 65px;
 }
 
-.sign-up{
+.sign-up {
     height: 1209px;
     background: url("../img/center\ v2.png") center center/ cover no-repeat;
     background-size: 1798px 515px;
+    background-position-y: 74%;
 }
 
-.rectangle-container{
+.rectangle-container {
     display: flex;
     justify-content: center;
 }
 
-.rectangle{
+.rectangle {
     position: static;
     height: 109px;
     width: 235px;
@@ -145,38 +147,23 @@ h1{
     color: #ffffff;
     text-align: center;
     padding: 40px 0;
-    background-color: rgba(0,0,0,0.25);
+    background-color: rgba(0, 0, 0, 0.25);
 }
 
-.cent{
+.cent {
     margin: 0 40px;
 }
 
-h2{
+h2 {
     font-family: Dosis;
     font-size: 52px;
     font-weight: 700;
     color: #2f1946;
     text-align: center;
     padding-top: 146px;
-    margin-bottom: -30px;
 }
 
-h3{
-    font-family: Dosis;
-    font-size: 30px;
-    line-height: 36px;
-    font-weight: 700;
-    color: #2f1946;
-    padding: 54px;
-    text-align: center;
-}
-
-h3 span{
-    color: #fe4a5d;
-}
-
-.blockquote{
+.blockquote {
     padding-top: 54px;
     font-family: Dosis;
     font-size: 30px;
@@ -186,12 +173,315 @@ h3 span{
     text-align: center;
 }
 
-.blockquote cite{
+.blockquote cite {
     font-family: Dosis;
     font-size: 30px;
     font-weight: 700;
-    color: #fe4a5d; 
+    color: #fe4a5d;
     display: block;
     text-align: right;
-    padding: 0 178px;
+    padding: 0 240px;
+}
+
+.registration {
+    display: block;
+    width: 450px;
+    background-color: #ffffff;
+    border: 8px solid transparent;
+    border-image: linear-gradient(to right, red, orange);
+    border-image-slice: 1;
+    margin: 55px auto 0;
+}
+
+.registration .registration__form {
+    height: 100%;
+    text-align: center;
+    padding: 65px 75px;
+}
+
+.registration .registration__title {
+    font-family: Dosis;
+    font-size: 38px;
+    font-weight: 700;
+    color: #2f1946;
+}
+
+.registration .registration__button-signup {
+    margin-top: 43px;
+    width: 100%;
+    height: 41px;
+    background-color: #2f53a3;
+    border-radius: 4px;
+    font-family: Dosis;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+
+.registration .registration__button-signup .facebook-icon {
+    width: 15px;
+    height: 16px;
+    margin-right: 4px;
+}
+
+.registration .registration__spaceline {
+    font-family: Dosis;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #9b9b9b;
+    margin: 13px 0 15px;
+}
+
+.registration .registration__spaceline .line {
+    display: inline-block;
+    width: 44%;
+    height: 2px;
+    background-color: #dcdcdc;
+    border-radius: 1px;
+}
+
+.registration .registration__spaceline .spaceline__text {
+    margin: 0 4px;
+}
+
+.line,
+.spaceline__text {
+    vertical-align: middle;
+}
+
+.registration .registration__input {
+    margin-bottom: 12px;
+    width: 100%;
+    height: 41px;
+    background-color: #ffffff;
+    border: 2px solid #dcdcdc;
+    border-radius: 4px;
+    font-family: Dosis;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    padding-left: 12px;
+}
+
+.registration__input::-webkit-input-placeholder {
+    color: #642f6b;
+}
+
+.registration__input::-moz-placeholder {
+    color: #642f6b;
+}
+
+.registration__input:-moz-placeholder {
+    color: #642f6b;
+}
+
+.registration__input:-ms-input-placeholder {
+    color: #642f6b;
+}
+
+.registration .registration__button-confirm {
+    width: 100%;
+    height: 41px;
+    background-color: #81398b;
+    border-radius: 4px;
+    font-family: Dosis;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}
+
+.join-now {
+    height: 730px;
+    background: url("../img/bg3.jpg") center center/ auto no-repeat;
+}
+
+.join-now .join-now_circleborder {
+    display: inline-block;
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+    position: relative;
+}
+
+.flowerb {
+    width: 198px;
+    height: 204px;
+    top: 154px;
+    left: -330px;
+}
+
+.likeb {
+    width: 134px;
+    height: 134px;
+    top: 370px;
+    left: -320px;
+}
+
+.sendb {
+    width: 270px;
+    height: 269px;
+    top: -10px;
+    left: -290px;
+}
+
+.gendersb {
+    width: 212px;
+    height: 212px;
+    top: 400px;
+    left: -450px;
+}
+
+.joinb {
+    width: 462px;
+    height: 462px;
+    opacity: 0.4;
+    top: -250px;
+    left: 410px;
+}
+
+.languagesb {
+    width: 203px;
+    height: 203px;
+    top: -350px;
+    left: 470px;
+}
+
+.boxb {
+    width: 133px;
+    height: 133px;
+    top: 90px;
+    left: 270px;
+}
+
+.translationb {
+    width: 247px;
+    height: 247px;
+    top: -50px;
+    left: 390px;
+}
+
+.chatb {
+    width: 174px;
+    height: 174px;
+    top: -270px;
+    left: 380px;
+}
+
+.circle {
+    border-radius: 100%;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    top: 12%;
+    justify-content: center;
+    align-items: center;
+    font-family: Dosis;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    flex-direction: column;
+}
+
+.flower {
+    width: 153px;
+    height: 153px;
+    background-color: #f9b416;
+}
+
+.like {
+    width: 100px;
+    height: 100px;
+    background-color: #fe4a5d;
+}
+
+.send {
+    width: 202px;
+    height: 201px;
+    background-color: #ff6c00;
+    font-size: 32.1px;
+    line-height: 1.2;
+    transform: rotate(-9deg);
+}
+
+.genders {
+    width: 159px;
+    height: 159px;
+    background-color: #f9b416;
+    font-size: 25.2px;
+    transform: rotate(6deg);
+}
+
+.join {
+    width: 371px;
+    height: 371px;
+    background-color: rgba(255, 255, 255, 1);
+    top: 9%;
+    color: #67326e;
+}
+
+.languages {
+    width: 155px;
+    height: 155px;
+    background-color: #fe4a5d;
+    font-size: 20px;
+    transform: rotate(3deg);
+}
+
+.box {
+    width: 101px;
+    height: 101px;
+    background-color: #fe4a5d;
+}
+
+.translation {
+    width: 188px;
+    height: 188px;
+    background-color: #ff6c00;
+    font-size: 24px;
+    line-height: 28px;
+    transform: rotate(6deg);
+}
+
+.chat {
+    width: 133px;
+    height: 133px;
+    background-color: #f9b416;
+}
+
+.sixteen {
+    font-size: 43.8px;
+}
+
+.twenty-seven {
+    font-size: 40px;
+}
+
+.join-textnow {
+    font-size: 60px;
+    line-height: 1.2;
+}
+
+.join-text {
+    font-size: 46px;
+    line-height: 1.2;
+    text-transform: none;
+}
+
+.join-button {
+    position: relative;
+    bottom: -28px;
+    width: 139px;
+    height: 39px;
+    background-color: #e22028;
+    background-image: linear-gradient(90.0deg, #e22028 0%, #f9b416 100%);
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #ffffff;
 }
