@@ -13,7 +13,7 @@
 
 .promo {
     height: 1032px;
-    background: url("../img/top.jpg") center center/contain no-repeat;
+    background: url("../img/top.jpg") center center/100% 100% no-repeat;
 }
 
 .nav-link {
@@ -76,6 +76,11 @@ h1 {
     font-size: 18px;
     font-weight: 700;
     color: #ffffff;
+    opacity: 1;
+}
+
+.started:hover {
+    opacity: 0.6;
 }
 
 .wrap-border {
@@ -210,6 +215,12 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     color: #ffffff;
+    border: none;
+    opacity: 1;
+}
+
+.registration__button-signup:hover {
+    opacity: 0.8;
 }
 
 .registration .registration__button-signup .facebook-icon {
@@ -255,6 +266,7 @@ h2 {
     font-weight: 700;
     letter-spacing: 0.05em;
     padding-left: 12px;
+    opacity: 1;
 }
 
 .registration__input::-webkit-input-placeholder {
@@ -273,6 +285,10 @@ h2 {
     color: #642f6b;
 }
 
+.registration__input:hover {
+    opacity: 0.6;
+}
+
 .registration .registration__button-confirm {
     width: 100%;
     height: 41px;
@@ -283,6 +299,12 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     color: #ffffff;
+    border: none;
+    opacity: 1;
+}
+
+.registration__button-confirm:hover {
+    opacity: 0.8;
 }
 
 .join-now {
@@ -471,6 +493,12 @@ h2 {
     font-size: 16px;
     line-height: 1.2;
     color: #ffffff;
+    border: none;
+    opacity: 1;
+}
+
+.join-button:hover {
+    opacity: 0.6;
 }
 
 .footer {
@@ -492,17 +520,21 @@ h2 {
     align-self: center;
 }
 
+.subscribe .subscribe_form {
+    font-size: 0;
+}
+
 .form_search {
     width: 258px;
     height: 40px;
     background-color: #ffffff;
     border: 1px solid #cdcdcd;
-    border-radius: 4px;
     font-family: Lato;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     color: #cacaca;
     padding-left: 14px;
+    border-radius: 4px 0px 0px 4px;
 }
 
 .form_submit {
@@ -510,12 +542,17 @@ h2 {
     height: 40px;
     background-color: #00cfae;
     border-radius: 0px 4px 4px 0px;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     color: #fefefe;
     border: none;
+    opacity: 1;
+}
+
+.form_submit:hover {
+    opacity: 0.6;
 }
 
 .faq {
@@ -535,6 +572,10 @@ h2 {
 .faq .faq_a {
     margin: 0 30px;
     text-decoration: none;
+}
+
+.faq_a:hover {
+    text-decoration: underline;
 }
 
 .flags {
